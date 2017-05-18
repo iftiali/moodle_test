@@ -1,12 +1,11 @@
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
+function(modules) { // webpackBootstrap
+	// The module cache
+	var installedModules = {};
 
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
+	// The require function
+	function __webpack_require__(moduleId) {
+		// Check if module is in cache
+		if(installedModules[moduleId])
 /******/ 			return installedModules[moduleId].exports;
 
 /******/ 		// Create a new module (and put it into the cache)
@@ -38,7 +37,7 @@
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
-/******/ })
+/******/ }
 /************************************************************************/
 /******/ ((function(modules) {
 	// Check all modules for deduplicated modules

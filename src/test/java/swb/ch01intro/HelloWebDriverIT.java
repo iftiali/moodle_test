@@ -28,7 +28,7 @@ public class HelloWebDriverIT {
     @Test
     public void helloWebDriver() throws Exception {
 
-        driver.get("http://localhost:8080/hello-webdriver.html");
+        driver.get("http://0.0.0.0:8080/hello-webdriver.html");
 
         WebElement pageHeading = driver.findElement(By.tagName("h1"));
 
